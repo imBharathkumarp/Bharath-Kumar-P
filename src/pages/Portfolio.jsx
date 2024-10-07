@@ -67,13 +67,13 @@ const SocialIcons = () => {
       <a href="https://github.com/aryansanganti" target="_blank" rel="noopener noreferrer">
         <FaGithub size={24} color="#4A90E2" />
       </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/aryansanganti/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin size={24} color="#4A90E2" />
       </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://x.com/AryanSanganti" target="_blank" rel="noopener noreferrer">
         <FaTwitter size={24} color="#4A90E2" />
       </a>
-      <a href="mailto:aryan@example.com">
+      <a href="mailto:aryan.sanganti@somaiya.edu">
         <FaEnvelope size={24} color="#4A90E2" />
       </a>
     </div>
@@ -134,12 +134,10 @@ const NavBar = ({ activeSection, setActiveSection }) => {
 const About = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px', fontSize :'40px' }}>About Me</h2>
-    <p style={{ lineHeight: '1.6', fontSize: '25px' }}>
-      As a passionate CS student specializing in MERN (MongoDB, Express.js, React, Node.js) stack and 3D Web development
-      using Three.js and React Three Fiber, I bring a unique blend of skills to the table. My problem-solving mindset,
-      adaptability in dynamic environments, and strong analytical skills make me an asset to any development team.
+    <p style={{ lineHeight: '1.6', fontSize: '20px' }}>
+    Hi, I’m Aryan Sanganti, a software developer passionate about building innovative web applications that make a real-world impact. My experience focuses on creating applications that enhance user experience and address key challenges. Recently, I developed CareMate, an app designed to improve elderly care by integrating health monitoring and appointment management systems. I’m also working on projects like Plantvision, where I integrate 3D modeling, showcasing my interest in creative, tech-driven solutions. From crafting front-end applications in React to utilizing Firebase for backend management, I love pushing the boundaries of technology to deliver scalable, user-focused solutions.
     </p>
-    <p style={{ lineHeight: '1.6', fontSize: '25px' }}>
+    <p style={{ lineHeight: '1.6', fontSize: '20px' }}>
       I'm constantly pushing the boundaries of web development, eager to take on new challenges and create cutting-edge
       web experiences. With a keen interest in staying updated on the latest industry trends, I'm actively seeking
       opportunities to contribute to innovative projects and make a positive impact in the field of computer science.
