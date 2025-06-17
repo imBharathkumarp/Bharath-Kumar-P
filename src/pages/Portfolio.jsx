@@ -64,16 +64,16 @@ const Scene = () => {
 const SocialIcons = () => {
   return (
     <div style={{ position: 'absolute', bottom: '20px', left: '20px', display: 'flex', gap: '15px' }}>
-      <a href="https://github.com/aryansanganti" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/imBharathkumarp" target="_blank" rel="noopener noreferrer">
         <FaGithub size={24} color="#4A90E2" />
       </a>
-      <a href="https://www.linkedin.com/in/aryansanganti/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/imbharathkumarp/" target="_blank" rel="noopener noreferrer">
         <FaLinkedin size={24} color="#4A90E2" />
       </a>
-      <a href="https://x.com/AryanSanganti" target="_blank" rel="noopener noreferrer">
+      <a href="https://x.com/imBharathkumarp" target="_blank" rel="noopener noreferrer">
         <FaTwitter size={24} color="#4A90E2" />
       </a>
-      <a href="mailto:aryan.sanganti@somaiya.edu">
+      <a href="mailto:bharath2003kumarp@gmail.com">
         <FaEnvelope size={24} color="#4A90E2" />
       </a>
     </div>
@@ -95,9 +95,9 @@ const NavBar = ({ activeSection, setActiveSection }) => {
       right: 0,
       zIndex: 1000,
     }}>
-      <h1 style={{ color: '#FFFFFF', fontSize: '24px', fontWeight: 'bold', margin: 0 }}>Aryan Sanganti</h1>
+      <h1 style={{ color: '#FFFFFF', fontSize: '24px', fontWeight: 'bold', margin: 0 }}>Bharath Kumar P</h1>
       <div style={{ display: 'flex', gap: '20px' }}>
-        {['About', 'Projects','Experience', 'Education' ].map((section) => (
+        {['About', 'Projects','Experience', 'Education', 'ExtraCarricular', 'Achievements' ].map((section) => (
           <button
             key={section}
             onClick={() => setActiveSection(section)}
@@ -135,12 +135,13 @@ const About = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px', fontSize :'40px' }}>About Me</h2>
     <p style={{ lineHeight: '1.6', fontSize: '20px' }}>
-    Hi, I’m Aryan Sanganti, a software developer passionate about building innovative web applications that make a real-world impact. My experience focuses on creating applications that enhance user experience and address key challenges. Recently, I developed CareMate, an app designed to improve elderly care by integrating health monitoring and appointment management systems. I’m also working on projects like Plantvision, where I integrate 3D modeling, showcasing my interest in creative, tech-driven solutions. From crafting front-end applications in React to utilizing Firebase for backend management, I love pushing the boundaries of technology to deliver scalable, user-focused solutions.
+    I’m Bharath Kumar P, a passionate Software Developer skilled in Python, JavaScript, and web development technologies like HTML, CSS, React, and Tailwind. 
+    I enjoy solving real-world problems through coding and believe in writing clean, efficient, and scalable code. Along with my technical skills, I have a strong interest in AI, automation, and continuous learning to stay updated with the latest trends in technology. 
+    I am also an active Open-Source Contributor — I participated and contributed to Social Summer of Code (SSoC) 2025, where I worked on meaningful projects. One of my proud contributions was to Engineering in Kannada, a popular Kannada tech YouTube channel, helping to make technical education more accessible. 
+    I’m now looking for opportunities to apply my skills, learn from experienced teams, and grow as a professional developer.
     </p>
     <p style={{ lineHeight: '1.6', fontSize: '20px' }}>
-      I'm constantly pushing the boundaries of web development, eager to take on new challenges and create cutting-edge
-      web experiences. With a keen interest in staying updated on the latest industry trends, I'm actively seeking
-      opportunities to contribute to innovative projects and make a positive impact in the field of computer science.
+      
     </p>
   </div>
 )
@@ -192,53 +193,41 @@ const Projects = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px', fontSize :'40px' }}>Projects</h2>
     <ProjectCard
-      title="CareMate - Elderly Care App"
-      description="A comprehensive solution developed during the Codessience Hackathon to enhance elderly care. Features include appointment management, health monitoring, and automated reminders."
-      link="https://elderly-app.vercel.app/"
-      imageSrc="/Elderly.png?height=200&width=400"
-      skills={['Node.js', 'Web Development', 'Full-Stack Development', 'Firebase', 'REST APIs', 'React.js']}
+      title="🛒 Fatafat – E-Commerce Web App"
+      description="Fatafat is a modern and responsive e-commerce web application developed using the MERN stack.
+It features a dynamic front-end, secure backend APIs, and a clean UI for seamless online shopping."
+      link="https://github.com/imBharathkumarp/frontend_ecommerce"
+      imageSrc="/Fatafat.png?height=200&width=400"
+      skills={['Node.js', 'Web Development', 'Full-Stack Development', 'React.js']}
     />
     <ProjectCard
-      title="Job Board Website"
-      description="Developed a job board frontend using React, featuring advanced search filters, user profiles, and application tracking."
-      link="https://job-board-three-nu.vercel.app/"
-      imageSrc="/job.png?height=200&width=400"
-      skills={['React.js', 'HTML5', 'CSS', 'JavaScript', 'MongoDB', 'Node.js', 'Express.js']}
+      title="📄 Resume ATS Checker"
+      description="Resume ATS Checker is a simple, browser-based tool that allows job seekers to upload their resumes and compare them against a job description to see how well they match — just like an Applicant Tracking System (ATS) would."
+      link="https://github.com/imBharathkumarp/Resume-ATS-Checker"
+      imageSrc="/ResumeATSChecker.png?height=200&width=400"
+      skills={['HTML5', 'CSS', 'JavaScript', 'pdf.js', '.mammoth.js']}
     />
     <ProjectCard
-      title="News Head"
-      description="A news headline project that aggregates real-time news from various sources, employing sentiment analysis to categorize headlines."
-      link="https://github.com/aryansanganti/News-Headlines"
-      imageSrc="/News.png?height=200&width=400"
-      skills={['REST APIs', 'React.js', 'HTML5', 'CSS', 'JavaScript']}
+      title="🧠 Thyroid Disease Prediction System"
+      description=" Developed a Thyroid Disease Prediction System using advanced Machine Learning algorithm to diagnose thyroid 
+disorders with high accuracy. Won 2nd Prize in Project Exhibition organized by ShriTeck Innovations. "
+      link="https://github.com/imBharathkumarp/Thyroid-Prediction-System"
+      imageSrc="/TPS.jpg?height=200&width=400"
+      skills={['Python', 'Machine Learning', 'Flask', 'Scikit-learn', 'Pandas', 'NumPy', 'GitHub Actions']}
     />
     <ProjectCard
-      title="Restaurant Website"
-      description="Developed for the Abyantrika GEN AI Challenge. Won 1st Prize."
-      link="https://github.com/aryansanganti/GEN-AI-"
-      imageSrc="/restaurent.png?height=200&width=400"
-      skills={['HTML5', 'CSS']}
+      title="🩺 Chronic Kidney Disease Prediction"
+      description=" Built a CKD prediction model using Random Forest and XGBoost with high accuracy."
+      link="https://github.com/imBharathkumarp/Chronic-disease-project"
+      imageSrc="/CKD.png?height=200&width=400"
+      skills={['Python', 'Scikit-learn', 'Streamlit', 'GitHub Actions']}
     />
     <ProjectCard
-      title="Try Windows-11"
-      description="A web-based simulation of the Windows 11 interface."
-      link="https://github.com/aryansanganti/Windows-11"
-      imageSrc="/windows.png?height=200&width=400"
+      title="PitchRefine"
+      description="AI-powered web app called PitchRefine. It allows users (especially students, founders, or entrepreneurs) to input a short description of their startup or business idea and automatically generates a structured, investor-ready pitch deck."
+      link="https://pitchrefine.netlify.app/"
+      imageSrc="/Pitch.png?height=200&width=400"
       skills={['CSS', 'HTML5', 'JavaScript']}
-    />
-    <ProjectCard
-      title="Spotify Clone"
-      description="A web application developed using HTML and CSS, designed to replicate the popular music streaming platform, Spotify."
-      link="https://github.com/AryanSanganti/Spotify-Clone-Project"
-      imageSrc="/Spotify.png?height=200&width=400"
-      skills={[ 'HTML5', 'CSS', 'Bootstrap']}
-    />
-    <ProjectCard
-      title="Amazon Clone"
-      description="An e-commerce web application inspired by Amazon, developed using HTML and CSS."
-      link="https://github.com/AryanSanganti/Amazon-Clone-Project"
-      imageSrc="/amazon.png?height=200&width=400"
-      skills={[  'HTML5', 'CSS', 'Bootstrap']}
     />
   </div>
 )
@@ -247,19 +236,19 @@ const Education = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px', fontSize :'40px'}}>Education</h2>
     <div style={{ marginBottom: '20px' , fontSize: '25px'}}>
-      <h3 style={{ color: '#333' }}>KJ SOMAIYA COLLEGE OF ENGINEERING – MUMBAI</h3>
-      <p style={{ color: '#666', }}>Bachelor of Technology, Computers and Communication Engineering</p>
-      <p style={{ color: '#666' }}>2023 - Present</p>
+      <h3 style={{ color: '#333' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY – Tumakuru</h3>
+      <p style={{ color: '#666', }}>Bachelor of Engineering, Artificial Intelligence and Data Science</p>
+      <p style={{ color: '#666' }}>Graduated: 2025</p>
     </div>
     <div style={{ marginBottom: '20px' , fontSize: '25px'}}>
-      <h3 style={{ color: '#333' }}>RAMNARIAN RUIA – MUMBAI</h3>
-      <p style={{ color: '#666',  }}>Higher Secondary Certificate (HSC)</p>
-      <p style={{ color: '#666' }}>Graduated: 2023</p>
+      <h3 style={{ color: '#333' }}>VIJAYA COMPOSITE PRE-UNIVERSITY COLLEGE – Bengaluru</h3>
+      <p style={{ color: '#666',  }}>Karnataka Pre-University Board (PUC)</p>
+      <p style={{ color: '#666' }}>Graduated: 2021</p>
     </div>
     <div style={{ marginBottom: '20px' , fontSize: '25px'}} >
-      <h3 style={{ color: '#333' }}>SACRED HEART HIGH SCHOOL – MUMBAI</h3>
-      <p style={{ color: '#666',  }}>Secondary School Certificate (SSC)</p>
-      <p style={{ color: '#666' }}>Graduated: 2021</p>
+      <h3 style={{ color: '#333' }}>SRI SARASWATHI VIDYANIKETHANA HIGH SCHOOL – Bengaluru</h3>
+      <p style={{ color: '#666',  }}>Secondary School Leaving Certificate (SSLC)</p>
+      <p style={{ color: '#666' }}>Graduated: 2019</p>
     </div>
   </div>
 )
@@ -268,17 +257,73 @@ const Experience = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px' ,fontSize :'40px'}}>Experience</h2>
     <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
-      <h3 style={{ color: '#4A90E2' }}>MESHCRAFT INTERN – JUNIOR WEB DEVELOPER INTERN</h3>
-      <p style={{ color: '#666' }}>June 2023 - August 2023</p>
+      <h3 style={{ color: '#4A90E2' }}>Pentagon Space – FULL STACK DEVELOPER INTERN</h3>
+      <p style={{ color: '#666' }}>Oct 2023 - Jan 2024</p>
       <ul style={{ color: '#333', lineHeight: '1.6' }}>
-        <li>Utilized the MERN Stack to develop full-stack applications, seamlessly integrating backend services with responsive, dynamic front-end components.</li>
-        <li>Created captivating interactive 3D visuals using Three.js and React Three Fiber, significantly enhancing user engagement and overall experience.</li>
-        <li>Focused on performance optimization techniques, refining code and managing assets to ensure fast load times and smooth interactions, resulting in improved user satisfaction and retention.</li>
-        <li>Collaborated with senior developers to implement best practices in code organization and version control using Git.</li>
-        <li>Participated in daily stand-ups and sprint planning sessions, gaining valuable experience in Agile development methodologies.</li>
+        <li>- Developed web applications using the MERN stack.</li>
+        <li>- Assisted in debugging and optimizing code for better performance.</li>
+        <li>- Took ownership of key features in the e-commerce project, ensuring timely delivery and smooth user experience while 
+actively collaborating with teammates to solve challenges.</li>
+        <li></li>
+      </ul>
+    </div>
+    <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
+      <h3 style={{ color: '#4A90E2' }}>Unified Mentor – DATA ANALYST INTERN</h3>
+      <p style={{ color: '#666' }}>Jan 2025 - Mar 2025</p>
+      <ul style={{ color: '#333', lineHeight: '1.6' }}>
+        <li>-  Contributed to end-to-end data analytics workflows — from data cleaning and transformation to final reporting.</li>
+        <li>-  Analyzed real-time datasets using Excel, Python, and Jupyter Notebook to derive actionable insights.</li>
+        <li>-  Strengthened analytical thinking and enhanced the ability to communicate findings effectively to both technical and 
+non-technical audiences.</li>
+        <li></li>
       </ul>
     </div>
   </div>
+)
+
+const ExtraCarricular = () => (
+  <div style={{ animation: 'fadeIn 0.5s' }}>
+    <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px' ,fontSize :'40px'}}>Extra Curricular</h2>
+    <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
+      <h3 style={{ color: '#4A90E2' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h3>
+      <p style={{ color: '#666' }}>Agastya International Foundation</p>
+      <ul style={{ color: '#333', lineHeight: '1.6' }}>
+        <li>1. Volunteered at Agastya International Foundation as a teacher, delivering interactive lessons to students from 
+underserved backgrounds.</li>
+        <li>2. Completed 12 hours of teaching as part of the Agastya Volunteering Program.</li>
+        </ul>
+    </div>
+  <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
+      <h3 style={{ color: '#4A90E2' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h3>
+      <p style={{ color: '#666' }}>TNS India Foundation</p>
+      <ul style={{ color: '#333', lineHeight: '1.6' }}>
+        <li>1. Completed an intensive career-readiness program focused on technical and soft skills development in collaboration 
+with Accenture.</li>
+        <li>2. Gained hands-on experience in Java, Spring Boot, HTML/CSS, and MySQL through structured coursework and 
+assessments.</li>
+        </ul>
+    </div>
+    </div>
+)
+
+const Achievements = () => (
+  <div style={{ animation: 'fadeIn 0.5s' }}>
+    <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px' ,fontSize :'40px'}}>Achievements</h2>
+    <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
+      <h3 style={{ color: '#4A90E2' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h3>
+      <p style={{ color: '#666' }}>Agastya International Foundation</p>
+      <ul style={{ color: '#333', lineHeight: '1.6' }}>
+        <li>1. Won 2nd Prize in Project Exhibition organized by ShriTeck Innovations.</li>
+        <li>2.  Successfully completed a 19-hour online course on Python and machine learning conducted by the Indian 
+Institute of Remote Sensing (IIRS), ISRO.</li>
+        <li>3.   Actively contributed to open-source projects, including educational repositories for the Enginnering in Kannada 
+YouTube channel and other Html, Javascript and Python-based initiatives.</li>
+        <li>4.  Participated in the Social Summer of Code (SSoC) 2025, contributing to various open-source projects.</li>
+        <li>5.  Completed certified courses from Accenture, IBM, Infosys, Deloitte, and Udemy in Data Analytics, Python, Machine 
+Learning, and Prompt Engineering, enhancing domain knowledge through hands-on simulations and workshops.</li>
+        </ul>
+    </div>
+    </div>
 )
 
 const ContentSection = ({ activeSection }) => {
@@ -287,6 +332,8 @@ const ContentSection = ({ activeSection }) => {
     Projects: Projects,
     Education: Education,
     Experience: Experience,
+    ExtraCarricular: ExtraCarricular,
+    Achievements: Achievements,
   }
   const ActiveComponent = components[activeSection]
   return <ActiveComponent />
