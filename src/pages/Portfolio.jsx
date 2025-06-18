@@ -310,15 +310,15 @@ const Achievements = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px' ,fontSize :'40px'}}>Achievements</h2>
     <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
-      <h3 style={{ color: '#4A90E2' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h3>
-      <p style={{ color: '#666' }}>Agastya International Foundation</p>
+      <h3 style={{ color: '#4A90E2' }}></h3>
+      <p style={{ color: '#666' }}></p>
       <ul style={{ color: '#333', lineHeight: '1.6' }}>
         <li>1. Won 2nd Prize in Project Exhibition organized by ShriTeck Innovations.</li>
         <li>2.  Successfully completed a 19-hour online course on Python and machine learning conducted by the Indian 
 Institute of Remote Sensing (IIRS), ISRO.</li>
         <li>3.   Actively contributed to open-source projects, including educational repositories for the Enginnering in Kannada 
 YouTube channel and other Html, Javascript and Python-based initiatives.</li>
-        <li>4.  Participated in the Social Summer of Code (SSoC) 2025, contributing to various open-source projects.</li>
+        <li>4.  Participating in the Social Summer of Code (SSoC) 2025, contributing to various open-source projects.</li>
         <li>5.  Completed certified courses from Accenture, IBM, Infosys, Deloitte, and Udemy in Data Analytics, Python, Machine 
 Learning, and Prompt Engineering, enhancing domain knowledge through hands-on simulations and workshops.</li>
         </ul>
