@@ -236,19 +236,21 @@ const Education = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px', fontSize :'40px'}}>Education</h2>
     <div style={{ marginBottom: '20px' , fontSize: '25px'}}>
-      <h3 style={{ color: '#333' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY – Tumakuru</h3>
-      <p style={{ color: '#666', }}>Bachelor of Engineering, Artificial Intelligence and Data Science</p>
-      <p style={{ color: '#666' }}>Graduated: 2025</p>
+      <h3 style={{ color: '#111' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY – Tumakuru</h3>
+      <p style={{ color: '#444', }}>Visvesvaraya Technological University</p>
+      <p style={{ color: '#666', }}>B.E - Artificial Intelligence and Data Science</p>
+      <p style={{ color: '#777' }}>Graduated: 2025</p>
     </div>
     <div style={{ marginBottom: '20px' , fontSize: '25px'}}>
-      <h3 style={{ color: '#333' }}>VIJAYA COMPOSITE PRE-UNIVERSITY COLLEGE – Bengaluru</h3>
-      <p style={{ color: '#666',  }}>Karnataka Pre-University Board (PUC)</p>
-      <p style={{ color: '#666' }}>Graduated: 2021</p>
+      <h3 style={{ color: '#111' }}>VIJAYA COMPOSITE PRE-UNIVERSITY COLLEGE – Bengaluru</h3>
+      <p style={{ color: '#444',  }}>Karnataka Pre-University Board</p>
+      <p style={{ color: '#666', }}>PUC - PCMC</p>
+      <p style={{ color: '#777' }}>Graduated: 2021</p>
     </div>
     <div style={{ marginBottom: '20px' , fontSize: '25px'}} >
-      <h3 style={{ color: '#333' }}>SRI SARASWATHI VIDYANIKETHANA HIGH SCHOOL – Bengaluru</h3>
-      <p style={{ color: '#666',  }}>Secondary School Leaving Certificate (SSLC)</p>
-      <p style={{ color: '#666' }}>Graduated: 2019</p>
+      <h3 style={{ color: '#111' }}>SRI SARASWATHI VIDYANIKETHANA HIGH SCHOOL – Bengaluru</h3>
+      <p style={{ color: '#444',  }}>Secondary School Leaving Certificate (SSLC)</p>
+      <p style={{ color: '#777' }}>Graduated: 2019</p>
     </div>
   </div>
 )
