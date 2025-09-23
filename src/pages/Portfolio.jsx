@@ -285,6 +285,24 @@ const ExtraCarricular = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px' ,fontSize :'40px'}}>Extra Curricular</h2>
     <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
+      <h3 style={{ color: '#4A90E2' }}>Google Arcade Facilitator Program</h3>
+      <p style={{ color: '#666' }}>
+    Check out my Google Cloud public profile:&nbsp;
+    <a
+      href="https://www.cloudskillsboost.google/public_profiles/cd161c05-4673-4726-ab84-56e94c41bdc0"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#4A90E2', textDecoration: 'underline' }}
+    >
+      View Profile
+    </a>
+  </p>
+      <ul style={{ color: '#333', lineHeight: '1.6' }}>
+        <li>1. Actively engaging in Google Cloud labs, earning Arcade points and Skill Boost badges through hands-on projects.</li>
+        <li>2. Gaining cloud expertise, rewards, and industry-recognized skills.</li>
+        </ul>
+    </div>
+    <div style={{ marginBottom: '20px' , fontSize: '20px'}}>
       <h3 style={{ color: '#4A90E2' }}>SHRIDEVI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h3>
       <p style={{ color: '#666' }}>Agastya International Foundation</p>
       <ul style={{ color: '#333', lineHeight: '1.6' }}>
@@ -313,13 +331,14 @@ const Achievements = () => (
       <h3 style={{ color: '#4A90E2' }}></h3>
       <p style={{ color: '#666' }}></p>
       <ul style={{ color: '#333', lineHeight: '1.6' }}>
-        <li>1. Won 2nd Prize in Project Exhibition organized by ShriTeck Innovations.</li>
-        <li>2.  Successfully completed a 19-hour online course on Python and machine learning conducted by the Indian 
+        <li>1. Selected State level Project Presentation – Presented “AI-Powered Railway Safety System” among top innovations.</li>
+        <li>2. Won 2nd Prize in Project Exhibition organized by ShriTeck Innovations.</li>
+        <li>3.  Successfully completed a 19-hour online course on Python and machine learning conducted by the Indian 
 Institute of Remote Sensing (IIRS), ISRO.</li>
-        <li>3.   Actively contributed to open-source projects, including educational repositories for the Enginnering in Kannada 
-YouTube channel and other Html, Javascript and Python-based initiatives.</li>
-        <li>4.  Participating in the Social Summer of Code (SSoC) 2025, contributing to various open-source projects.</li>
-        <li>5.  Completed certified courses from Accenture, IBM, Infosys, Deloitte, and Udemy in Data Analytics, Python, Machine 
+        <li>4. Contributor at Social Summer of Code (SSoC) 2025, GirlScript summer of code (GSSoC) 2025 and Open Source Connect 
+India (OSCI) 2025. </li>
+        <li>5. Postman Student Expert – Certified in REST API testing, scripting, and automation using Postman.</li>
+        <li>6.  Completed certified courses from Accenture, IBM, Infosys, Deloitte, and Udemy in Data Analytics, Python, Machine 
 Learning, and Prompt Engineering, enhancing domain knowledge through hands-on simulations and workshops.</li>
         </ul>
     </div>
