@@ -198,7 +198,7 @@ const Projects = () => (
 It features a dynamic front-end, secure backend APIs, and a clean UI for seamless online shopping."
       link="https://github.com/imBharathkumarp/frontend_ecommerce"
       imageSrc="/Fatafat.png?height=200&width=400"
-      skills={['Node.js', 'Web Development', 'Full-Stack Development', 'React.js']}
+      skills={['Node.js', 'MongoDB', 'Web Development', 'Full-Stack Development', 'React.js']}
     />
     <ProjectCard
       title="📄 Resume ATS Checker"
