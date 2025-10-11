@@ -135,10 +135,10 @@ const About = () => (
   <div style={{ animation: 'fadeIn 0.5s' }}>
     <h2 style={{ color: '#4A90E2', borderBottom: '2px solid #4A90E2', paddingBottom: '10px', fontSize :'40px' }}>About Me</h2>
     <p style={{ lineHeight: '1.6', fontSize: '20px' }}>
-    I’m Bharath Kumar P, a passionate Software Developer skilled in Python, JavaScript, and web development technologies like HTML, CSS, React, and Tailwind. 
-    I enjoy solving real-world problems through coding and believe in writing clean, efficient, and scalable code. Along with my technical skills, I have a strong interest in AI, automation, and continuous learning to stay updated with the latest trends in technology. 
-    I am also an active Open-Source Contributor — I participated and contributed to Social Summer of Code (SSoC) 2025, where I worked on meaningful projects. One of my proud contributions was to Engineering in Kannada, a popular Kannada tech YouTube channel, helping to make technical education more accessible. 
-    I’m now looking for opportunities to apply my skills, learn from experienced teams, and grow as a professional developer.
+    <li>I’m Bharath Kumar P, a passionate Software Developer skilled in Python, JavaScript, and web development technologies like HTML, CSS, React, and Tailwind.</li>
+    <li>I enjoy solving real-world problems through coding and believe in writing clean, efficient, and scalable code. Along with my technical skills, I have a strong interest in AI, automation, and continuous learning to stay updated with the latest trends in technology.</li>
+    <li>I am also an active Open-Source Contributor — I participated and contributed to Social Summer of Code (SSoC) 2025, where I worked on meaningful projects. One of my proud contributions was to Engineering in Kannada, a popular Kannada tech YouTube channel, helping to make technical education more accessible.</li>
+    <li>I’m now looking for opportunities to apply my skills, learn from experienced teams, and grow as a professional developer.</li>
     </p>
     <p style={{ lineHeight: '1.6', fontSize: '20px' }}>
       
